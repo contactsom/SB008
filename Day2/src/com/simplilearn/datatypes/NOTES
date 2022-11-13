@@ -1,0 +1,15 @@
+
+// SMS
+
+// To capture total number of student in this school. 2000
+
+<dataType> totalStudent=2000;
+
+
+Byte = X
+short = Y
+int	= Y
+long= Y
+
+Which data type is most accurate : short
+

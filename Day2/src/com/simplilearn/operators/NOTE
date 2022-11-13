@@ -1,0 +1,32 @@
+
+What is + operator?
+
+In the form of String it worked as COncatination operator
+In the Form of int it worked as plus/add operator
+
+why output came in 2 lines  earlier if we have not used \n ??? please explain
+
+	System.out.println(); // print and give new line 
+	System.out.print(); // print
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
