@@ -1,0 +1,106 @@
+sir whenever i want to push some code on git then error occurs "remote origin already exist" every time .
+what is the solution of that.
+
+1st Time:
+git init
+git add <file/folder name>
+git commit -m “Your Message”
+git branch -M master
+git remote add origin <git URL>
+git push -u origin master
+
+
+2nd Time onwards:
+git add <file/folder name>
+git commit -m “Your Message”
+git push
+
+
+
+What is "public" class?
+If a class declared as public then we can access that class from anywhere .
+
+
+
+
+
+What will happen if we have not provide any access modifier ?
+
+
+
+
+
+default class A{
+	//ERROR
+}
+
+class A{
+	//NO ERROR
+}
+
+default class A {} === class A {}
+
+
+
+
+INHERETANCE
+
+Father 
+	Property X
+	
+Son
+	Property Y
+	
+What is Total Property of Son : X+Y
+
+
+
+difference btn final and abstract
+
+
+
+INDIA:
+Banana is 50 Rs./Kg - Good to buy
+
+USA
+Banana is 50 Doler./Kg -
+
+UK
+Banana is 50 Pounds./Kg -
+
+
+
+
+PHYSICS :
+	SI Unit [International System of Units]
+
+
+strictfp - Strict Floating Point
+
+22/7 (Pai) - 3.1414 INDIA
+22/7 (Pai) - 3.14 	UK
+22/7 (Pai) - 3.141 	USA
+
+
+https://en.wikipedia.org/wiki/IEEE_754
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
