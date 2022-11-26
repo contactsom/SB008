@@ -1,0 +1,169 @@
+What is Public Class?
+Ans : can be accessed from any where.
+
+What is Public Method?
+Ans : can be accessed from any where.
+
+What do you mean by any where in JAVA?
+1. Same Package/Class
+2. Different Package/Class
+
+Public :
+	1.  Class in Same Package
+	2.  Class in Different Package
+	
+	
+	
+	
+What is Public in JAVA ?
+	
+	Public Class
+OR
+	Public Method
+	
+	
+	
+	
+	
+	
+	Abstract Rule:
+	-------------
+	
+	1. IF A  class contain at least one abstract method , than Compulsary that class should be decleared as abstract.
+	Otherwise you will get Complitime Error.
+	
+	2. Eventhough a class does not contain any abstract method, still we can decleared class as a abstarct.
+	
+	
+	
+	Quiz:
+	
+	1. public abstract class A {
+		abstract void getMe(){.... }
+	}
+	Output: Error , You can not provide the implementation of Abstract Method in the Abstract Class. 
+	
+	
+	2. public  class A {
+		abstract void getMe();
+	}
+	Output: Error : IF A  class contain at least one abstract method , than Compulsary that class should be decleared as abstract
+	
+	
+	3. public abstract class A {
+		public void getName(){...};
+		public void getAge(){...};
+	}
+	Output:Error , if its not abstract it should not have sami colon
+	
+	
+	4. public abstract class A {
+		public void getName(){...}
+		public void getAge(){...}
+	}
+	Output: No Error . 
+	
+	5. public abstract class A {
+		public abstract void getName();
+		public abstract void getAge();
+	}
+	Output:  No Error . 
+	
+	5. public abstract class A {
+		public abstract void getName();
+		public abstract void getAge();
+		public abstract void getPhone(){ . . . }
+	}
+	Output:  error , abstract should not have implimentation
+	
+	6. public abstract class A {
+		public abstract void getName();
+		public abstract void getAge();
+		public void getPhone(){ . . . }
+	}
+	Output: No Error 
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	It simply means that abstract class allows abstract method and complete body method.?? True
+	It simply means that abstract class allows 
+		1. abstract method or Non Implemented Method OR
+		2. Non abstract method or Implemented Method 
+	
+	public and abstract different class ? YES
+	
+	
+	SRS: Software Requirement Specification : What you Want to do ?
+	SMS : Student Management System
+	
+	Project Guide
+		Client : I want this feature in my S/W
+		Developer :  I am providing this feature in your S/W
+	
+	
+	
+	SRS === Interface
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
