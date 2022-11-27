@@ -1,0 +1,174 @@
+
+
+RBI---[ Home Loan <=8% ]
+	-HDFC 	[ Home Loan <=7.99999% ]
+	-SBI	[ Home Loan <=7.89999% ]
+	-ICICI	[ Home Loan <=7.88999% ]
+	
+Case 1: 
+RBIClass
+	Logic for all Home Lone Interest 
+	Logic for all Home Lone Discount 
+	 
+	-HDFC 	
+		Logic for all Home Lone Interest <8% 
+		Logic for all Home Lone Discount 
+	-SBI
+		Logic for all Home Lone Interest <8% 
+		Logic for all Home Lone Discount 
+	-ICICI
+		Logic for all Home Lone Interest <8% 
+		Logic for all Home Lone Discount 
+		
+		
+RBIInterface
+	Logic for all Home Lone Interest 
+	Logic for all Home Lone Discount 
+	 
+	-HDFC implements RBIInterface	
+		
+	-SBI implements RBIInterface	
+		
+	-ICICI implements RBIInterface	
+	
+	
+	
+	What is an Interface
+	Why to use Interface
+	Extends Vs Implements
+	Method inside interface.
+	
+	
+	public interfaec A {
+	
+		1. void m1(); - Valid 
+		2. public void m1(); - Valid
+		3. abstract void m1(); - Valid
+		4. public abstract void m1(); - Valid
+		4. private void m1(); - not Valid 
+		
+	}
+	
+	
+	public interface B {
+
+	public static final String NAME="ABC";
+	static final String NAME="ABC";
+	final String NAME="ABC";
+	String NAME="ABC";
+
+	
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	sir, the eclips software I downloaded from the link that you have provided at the 1st class had crashed. when I re-download from the same link now it is saying that "suitable for java 11 or higher" can you please reshare the link supporting java 8 ?????????
+	
+	
+	
+	
+	
+	
+	
+public interface Wish {
+
+	public void hi();
+}
+
+
+public interface Greetings {
+	
+	public void hi();
+}
+
+
+public class Acknowledgement implements Greetings,Wish{
+
+	// from where Greetings or Wish ?
+
+	@Override
+	public void hi() {
+		System.out.println("Hi All Good Morning");
+		
+	}
+
+}
+
+
+
+
+*******************************************************************************************************
+
+
+
+									1. Insert ATM
+									2. Withdraw
+									3. Password
+									4. Enter AMount
+									5. SUBMIT
+									6. Get the Money
+
+									1. Insert ATM	- Developer : ATM got validated  
+									2. Withdraw		- Developer : withdraw() is getting called 
+									3. Password		- Developer : passwordValidation() is getting called 
+									4. Enter AMount - Developer : amountValidation() is getting called 
+									5. SUBMIT		- Developer : Insufficent Balance/ Success 
+									6. Get the Money
+
+
+
+
+
+
+
+
+50K > 60K -> Insufficent Balance 
+
+
+
+
+
+
+Polymorphism :
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
