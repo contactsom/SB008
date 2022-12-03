@@ -1,0 +1,12 @@
+List :
+
+1. List is the Child Interface of Collection
+2. If we want to represent the group of individual Object where , Duplicate object are allowed .
+2. Insertion Order Preserved
+4. It hold the value in index basis
+
+Linkedlist:
+1. The underlying Data Structure for Linked List is Double Linked List
+2. NULL value
+3. Best suitable if you want to do frequent insert or delete in the middle 
+4. Worst case if our frequent operation is fetch 

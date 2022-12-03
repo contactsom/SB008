@@ -1,0 +1,20 @@
+List :
+
+1. List is the Child Interface of Collection
+2. If we want to represent the group of individual Object where , Duplicate object are allowed .
+2. Insertion Order Preserved
+4. It hold the value in index basis
+
+Arraylist:
+1. The underlying Data Structure for ArrayList is resizable Array
+2. NULL value
+3. Default Size of AL is 10 
+4. Once it reach the max Size then it grow as below :
+	new Size = (current Size*3/2)+1
+	Ex : 
+		
+		current Size = 10
+		new Size = (10*3/2)+1 = 16  = in % 60%
+		
+		
+		cursor:

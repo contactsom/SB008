@@ -1,0 +1,12 @@
+
+
+	A 			B
+	
+	B should be sub - class of A
+	Then B is also called as co-varient sub type of A
+
+
+
+Object -> [String,Integer,Number,Double]
+
+Number -> Integer 

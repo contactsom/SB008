@@ -1,0 +1,12 @@
+List :
+
+1. List is the Child Interface of Collection
+2. If we want to represent the group of individual Object where , Duplicate object are allowed .
+2. Insertion Order Preserved
+4. It hold the value in index basis
+
+Vector:
+1. Every method of vector is synchronized. Hence vector object is Thread Safe
+2. Best Choice for frequent fetch 
+3. Worst Chose for Insert And Delete.
+
