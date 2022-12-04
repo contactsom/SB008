@@ -1,0 +1,159 @@
+*********Thread*********
+------------------------
+1. Process Based Multitasking 	- Provide the Money to random People 
+2. Thread Based Multitasking 	- Accept the request from two ATM at the same time .
+
+Thread can be defined in TWO Ways :
+	1. By Extending the Thread Class
+	2. By Implementing the Runnable Interface .
+	
+	# How to Create the Thread By Extending the Thread Class
+	# What is the difference between thread.run() and thread.start() method .
+	
+Case 1: Thread scheduler-
+		Thread scheduler is a part of JVM due to this 
+		unpredictable Behavior of Thread scheduler we can not expect O/P for the any program .
+		
+Case 2: difference between thread.run() and thread.start() method
+
+		
+Case 3: Importance of thread class start() method 
+
+Case 4: What will happen if we are not overriding the run() method .
+		Then the Thread class run() will be executed which has empty implementation 
+		and hence we would not get any output.
+		NOTE: Then it is highly recommended to override the run() method.
+		
+Case 5: method signature of run() can not be changed .
+
+
+
+
+Thread Life Cycle : [Diagram refer PPT]
+*****************
+	
+	1. Once we create the Thread object then it is said to be "new state" or "Born state"
+		MyThread myThread = new MyThread();
+	2. If we call the start() then the thread will be entred in to "Ready" or "Runnable" State
+		myThread.start();
+	3. If Thread scheduler allocates CPU, then the thread will be entred in to "Running" State.
+	
+	4. If run() method completes their task then it will enter in to "Dead" state.
+	NOTE :  Main thread is always a parent thread .
+
+
+Case 6:
+		You can not start the thread twice at the same time .
+		java.lang.IllegalThreadStateException
+		
+		
+	
+****** ******  How to create the thread by Implementing the Runnable Interface .
+****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** 
+
+
+# Where run() method exist 
+# How Thread class getting run() method  
+public class java.lang.Thread implements java.lang.Runnable {
+
+}
+	
+*** Getting and Setting the name of the Thread	.
+
+**** Thread Priority:
+
+1. Thread.MIN_PRIORITY  - 1
+2. Thread.NORM_PRIORITY - 5 [default]
+3. Thread.MAX_PRIORITY  - 10
+
+
+There are few methods which prevent the thread Execution :
+
+1. yield()
+2. join ()
+3. sleep()
+
+**** yield() :
+	yield() method cause to pause the current executing thread for giving the chance to remaining
+	threads of same priority.
+	
+	If there are no wating threads or all threads have low  priority then the same thread will
+	continue it's execution once again .
+	
+	Signature of Method :
+		public static native void yield()
+		
+	The thread which is yielded , when it will get chance once again for execution is decidsed by 
+	the thread scheduler and this is unpredictable.
+	
+	If we are not commenting Thread.yield(); then the chance of completing main thread is high because 
+	child thread has Thread.yield().
+	
+
+**** join() :
+
+	If a thread wants to wait until completing some other thread then we should go for join() method.
+	
+	If thread  t1 [main]  execute t2.join()[child] then t1 thread will entred in to wating state until t2 	
+	complete . Once t2 complete then t1 will continue its execution .
+	
+		CRICKET :
+		1 - opening
+		2 - opening
+		3 - Virat :  if 1 or 2 get out 
+		
+*** sleep() :
+	If a thread do not want to perform any operation for a particular amount of time (Just pausing)
+	then we should go for sleep()
+	
+		
+		
+Synchronization :
+****************
+
+Synchronization is the modifier applicable only for method and block not for class and variables.
+
+If a method or block declared as synchronized then at a time only one thread is allowed to execute.
+
+The main advantage of Synchronization is we can resolve the data inconsistency
+
+The main limitation of Synchronization is it increase the waiting  time for another Thread .
+Which impact the performance of the system . never recommended to use .
+
+ 
+
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
