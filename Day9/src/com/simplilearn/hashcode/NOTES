@@ -1,0 +1,16 @@
+This is one of the Object Class method 
+
+For every object  JVM will assign one unique ID, that is called as hashCode.
+
+we can override your own own hashCode method also as per requirement.
+
+
+366712642
+1829164700
+
+366712642
+1829164700
+
+
+902060844
+-854551050

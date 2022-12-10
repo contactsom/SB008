@@ -1,0 +1,55 @@
+
+student1.toString() <=> com.simplilearn.tostring.Student@15db9742
+
+
+toString() is in object class
+
+Implementation of "toString() " method in object Class
+------------------------------------------------------
+
+public String toString(){
+
+	returns getClass().getName()+"@"+Integer.toHexString(hashCode());
+
+
+}
+
+getClass().getName()=
+com.simplilearn.tostring.Student
+
+
+@
+
+Integer.toHexString(hashCode())=
+15db9742
+
+
+return "Student [stuName=" + stuName + ", stuRoll=" + stuRoll + "]";
+
+
+[stuName=ANGSHUMAN BHATTACHARYYA , stuRoll=101]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

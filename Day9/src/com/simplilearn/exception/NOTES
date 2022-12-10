@@ -1,0 +1,53 @@
+
+
+TODO:
+sir i have a question if i use 1 instead of 0 in system.exit() then what happened
+https://stackoverflow.com/questions/2434592/difference-in-system-exit0-system-exit-1-system-exit1-in-java
+
+Exception Hierarchy :
+	1. Exception
+	2. Error
+	
+	
+	Finally block will always get executed : True
+	If JVM will not get terminated 
+	
+	try     : To maintain the Risky Code 
+	Catch   : To handle the Risky Code 
+	finally : To maintain the Cleanup code 
+	throw   : To hand over the created exception object to the JVM Manually.
+	throws  : to delegate the Responsibility  
+	
+	
+	***************************
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

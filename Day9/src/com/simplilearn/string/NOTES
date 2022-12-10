@@ -1,0 +1,8 @@
+String Class :
+
+1. With "new" keyword the string is abalable in both the memory [Heap and String Constant Pool]
+	Where without new key words it is only abalable in String Constant Pool
+2. In  String Constant Pool string value is always unique .
+3. String is Immutable Means Once you assigned the value wyou can not change the value of the same string object
+
+4. What is differense between "==" and equals() method

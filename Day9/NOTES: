@@ -1,0 +1,149 @@
+1: https://www.youtube.com/playlist?list=PLtsTccOGFwUJe7L4Wmo8VxfTzSI9O2zYr
+
+2. https://www.youtube.com/playlist?list=PLtsTccOGFwULMP18qqzA35LJ_6uZQrFx8
+
+3. https://www.youtube.com/playlist?list=PLtsTccOGFwUJYxvzU405NYiuoiVJdmppD
+
+4. https://www.youtube.com/playlist?list=PLtsTccOGFwUJLi-Z2TfXmPm8pAhUCvaky
+
+5. https://www.youtube.com/playlist?list=PLtsTccOGFwULouKZAyC7awblhEy5QV6Wn
+
+6. https://www.youtube.com/playlist?list=PLtsTccOGFwUKZy0_Op7-8m623eGfiay-B
+
+
+Interview Question :
+
+*******************************************************************************************************************
+
+Project 1:
+
+DESCRIPTION
+
+Project objective: 
+
+As a Full Stack Developer, complete the features of the application by planning the development in terms of sprints and then push 
+the source code to the GitHub repository. As this is a prototyped application, the user interaction will be via a command line. 
+
+ 
+
+Background of the problem statement:
+
+Company Lockers Pvt. Ltd. hired you as a Full Stack Developer. 
+They aim to digitize their products and chose LockedMe.com as their first project to start with.
+You’re asked to develop a prototype of the application.
+The prototype of the application will be then presented to the relevant stakeholders for the budget approval.
+Your manager has set up a meeting where you’re asked to present the following in the next 15 working days (3 weeks): 
+
+Specification document - Product’s capabilities, appearance, and user interactions
+
+Number and duration of sprints required 
+
+Setting up Git and GitHub account to store and track your enhancements of the prototype 
+
+Java concepts being used
+
+Data Structures where sorting and searching techniques are used. 
+
+Generic features and three operations: 
+
+	Retrieving the file names in an ascending order
+
+Business-level operations:
+
+	Option to add a user specified file to the application
+	Option to delete a user specified file from the application
+	Option to search a user specified file from the application
+	Navigation option to close the current execution context and return to the main context
+
+Option to close the application
+
+ 
+
+The goal of the company is to deliver a high-end quality product as early as possible. 
+ 
+
+The flow and features of the application:
+Plan more than two sprints to complete the application
+Document the flow of the application and prepare a flow chart 
+List the core concepts and algorithms being used to complete this application
+Code to display the welcome screen. It should display:
+Application name and the developer details 
+The details of the user interface such as options displaying the user interaction information 
+Features to accept the user input to select one of the options listed 
+The first option should return the current file names in ascending order. The root director
+
+
+
+
+
+
+*********************************************************************************************
+
+
+
+Git Branching :
+release
+	master/main
+		develop
+			sprint
+				UserStory1/Developer1 Branch
+				UserStory2/Developer2 Branch
+				UserStory3/Developer3 Branch
+
+
+sprint Branch has to be deployed in to DEV Env.
+If Success 
+
+Merdge in to develop branch
+
+QA will deployee the code in to UAT/QA Env. and  start the testing
+
+Once Testing done then it move in to "master/main"
+
+
+Regression Testing on master/main
+
+
+If all good , then 
+
+Release branch will get created 
+
+that release branch provided to release managemet team 
+
+that get deployee in to Production 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
